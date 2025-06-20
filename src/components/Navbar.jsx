@@ -90,8 +90,7 @@ const Navbar = () => {
             {/* Logo */}
             <div className="flex items-center space-x-3">
               <a 
-                href="#home" 
-                className="focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded transition-transform hover:scale-105"
+                href="#home"
                 onClick={closeMenu}
               >
                 <img 
