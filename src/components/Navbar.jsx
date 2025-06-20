@@ -97,7 +97,7 @@ const Navbar = () => {
                 <img 
                   src={logo} 
                   alt="Company Logo" 
-                  className={`transition-all duration-500 ${isScrolled ? "h-12 w-12" : "h-16 w-16"}`}
+                  className={`transition-all duration-500 ${isScrolled ? "h-28 w-28" : "h-30 w-30"}`}
                   width="160" 
                   height="160"
                 />
