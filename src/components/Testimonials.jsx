@@ -4,11 +4,11 @@ import { Star, ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 export const Testimonials = () => {
   const testimonials = [
     { 
-      name: 'Sarah M.', 
+      name: 'Sharaf M.', 
       role: 'Adventure Traveler',
       quote: 'InspireGO crafted the most incredible 2-week itinerary through Southeast Asia. Every detail was perfect - from boutique hotels to local guides who showed us hidden gems we would have never found on our own.',
       rating: 5,
-      image: 'https://randomuser.me/api/portraits/women/43.jpg'
+      image: 'https://randomuser.me/api/portraits/men/43.jpg'
     },
     { 
       name: 'John D.', 
@@ -18,11 +18,11 @@ export const Testimonials = () => {
       image: 'https://randomuser.me/api/portraits/men/32.jpg'
     },
     { 
-      name: 'Aisha R.', 
+      name: 'Anadhu R.', 
       role: 'Family Traveler',
       quote: 'Traveling with kids can be stressful, but InspireGO made it effortless. They planned activities that kept our children engaged while allowing us adults to relax too. The local guides were fantastic with the kids!',
       rating: 4,
-      image: 'https://randomuser.me/api/portraits/women/65.jpg'
+      image: 'https://randomuser.me/api/portraits/men/65.jpg'
     },
     { 
       name: 'Rahul N.', 

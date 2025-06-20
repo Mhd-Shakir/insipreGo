@@ -53,7 +53,7 @@ const Hero = () => {
               {[1, 2, 3, 4].map((item) => (
                 <img
                   key={item}
-                  src={`https://randomuser.me/api/portraits/${item % 2 === 0 ? 'women' : 'men'}/${item + 20}.jpg`}
+                  src={`https://randomuser.me/api/portraits/${item % 5 === 0 ? '' : 'men'}/${item + 20}.jpg`}
                   alt="Happy traveler"
                   className="w-12 h-12 rounded-full border-2 border-white shadow-md"
                 />
